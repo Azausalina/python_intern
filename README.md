@@ -32,7 +32,7 @@
 - env уже содержит virtualenv со всем необходимым для запуска (для запуска source env/bin/activate)
 - Функция [is_alive_host](./app/main.py) реализована (для запуска python3 app/main.py)
 - Функция [is_alive_host](./app/main.py) [покрыта тестами](./tests.py) (для запуска: python3 tests.py)
-- [Cервис](./app/main.py) развернут и обернут в [Docker][Dockerfile]
+- [Cервис](./app/main.py) развернут и обернут в [Docker](Dockerfile)
 ```
 Witout Docker:
 >> uvicorn app.main:host_checker
